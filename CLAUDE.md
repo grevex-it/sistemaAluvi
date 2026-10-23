@@ -52,7 +52,7 @@ pnpm --filter @aluvi/cortes test   # tests de un solo módulo
 
 ## Más contexto
 
-- `docs/alcance.md` — qué se cotizó y en qué etapas.
+- `docs/alcance.md` — módulos, etapas y qué queda fuera del alcance.
 - `docs/arquitectura.md` — cómo se conectan las piezas.
 - `docs/validacion-softtech.md` — cómo se validan las recetas contra SoftTech.
 - `docs/decisiones/` — decisiones tomadas y por qué.

@@ -29,7 +29,6 @@ Permite que el **dueño de ALUVI** (y quien autorice) cargue movimientos escribi
 ## Relación con otros módulos
 
 - **Depende de**: `@aluvi/finanzas` (registra los movimientos), `@aluvi/base` (clientes, proveedores, obras).
-- Mismo stack que el bot de DailyFC (WAHA + modelos de OpenAI/Anthropic): reutilizar lo aprendido ahí.
 
 ## Pendientes
 

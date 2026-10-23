@@ -24,9 +24,8 @@ Es la "base técnica" que hoy tiene SoftTech, cargada en un sistema propio.
   - **Piezas alternativas** elegibles al presupuestar (ej. marco 94 o 188).
   - **Variantes según el vidrio** (con DVH cambia la hoja: 366 → 425).
   - **Extras opcionales** (ej. revestimiento ADR 165 en Rotonda 750).
-- Precio del aluminio por kg en USD (dato del cliente): blanco/negro/bronce/gris oscuro 11,3 · anodizado 11,9 · símil madera 17,4.
+- El precio del aluminio es **por kg** y depende de la **terminación**. Los valores los carga el cliente en el sistema; nunca van escritos en el código.
 - Mosquiteros para todas las líneas: ADR 12 y 558, travesaño ADR 11.
-- Tipologías o perfiles nuevos dentro de las 5 líneas los cubre el abono. Una línea entera nueva se cobra aparte.
 
 ## Dónde vive el código
 

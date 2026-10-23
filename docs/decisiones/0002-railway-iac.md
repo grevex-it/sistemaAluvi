@@ -4,7 +4,7 @@
 
 ## Contexto
 
-Se aloja en Railway, como DailyFC. Railway deprecó la configuración como código (`railway.json` / `railway.toml`): los servicios nuevos no pueden usarla y los existentes dejan de leerla el **1/12/2026**. El reemplazo es Infrastructure as Code en `.railway/railway.ts`.
+Se aloja en Railway. Railway deprecó la configuración como código (`railway.json` / `railway.toml`): los servicios nuevos no pueden usarla y los existentes dejan de leerla el **1/12/2026**. El reemplazo es Infrastructure as Code en `.railway/railway.ts`.
 
 Fuente: https://docs.railway.com/config-as-code
 
@@ -17,4 +17,3 @@ Fuente: https://docs.railway.com/config-as-code
 ## Consecuencias
 
 - Antes de aplicar cambios: `railway config plan`, revisar, y recién después `railway config apply`.
-- **DailyFC**: si usa `railway.json`, hay que migrarlo antes del 1/12/2026.

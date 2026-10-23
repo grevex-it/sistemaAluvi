@@ -11,7 +11,7 @@ Arma el presupuesto para el cliente final de ALUVI y lo exporta en PDF. También
 - **Cálculo del costo** de cada abertura: kg de aluminio × precio por kg de la terminación + accesorios + vidrio.
 - **Precio de venta** = costo + ganancia.
 - **PDF del presupuesto**:
-  - Estructura del presupuesto de Grivel Aberturas: una ficha por abertura (dibujo, medidas, descripción, precio), total y página de condiciones.
+  - Estructura de referencia que pasó el cliente: una ficha por abertura (dibujo, medidas, descripción, precio), total y página de condiciones.
   - Con estilo, fuentes y colores propios de ALUVI.
   - Al generarlo se elige: **dibujo técnico, render IA o ambos**.
 - **Rentabilidad por obra**: ganancia de cada trabajo, cruzando lo presupuestado, lo comprado y lo cobrado.

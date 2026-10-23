@@ -21,7 +21,7 @@
 - **apps/api** — Fastify. Rutas de cada módulo en `src/rutas/<modulo>.ts`. Es la única pieza que habla con la base de datos.
 - **apps/bot** — recibe los mensajes de WAHA, filtra los números autorizados y usa el módulo `03-bot-whatsapp` para interpretarlos. Registra a través de la API.
 - **modulos/** — la lógica de negocio. Las apps solo importan lo que cada módulo exporta.
-- **WAHA** — WhatsApp self-hosted (no la API oficial de Meta), mismo esquema que DailyFC.
+- **WAHA** — WhatsApp self-hosted (no la API oficial de Meta).
 - **Postgres** — base de datos única.
 - **IA** — interpretación de mensajes del bot (texto y audio) y render de aberturas para el presupuesto.
 

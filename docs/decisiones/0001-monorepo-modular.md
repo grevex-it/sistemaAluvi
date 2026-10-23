@@ -4,7 +4,7 @@
 
 ## Contexto
 
-El sistema tiene 9 módulos cotizados por separado y se entrega en etapas. Pedro quiere poder trabajar un módulo por vez, con su propio contexto, sin que un cambio desordene el resto.
+El sistema tiene 9 módulos y se entrega en etapas. Se busca poder trabajar un módulo por vez, con su propio contexto, sin que un cambio desordene el resto.
 
 ## Decisión
 

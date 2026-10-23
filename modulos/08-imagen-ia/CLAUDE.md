@@ -29,5 +29,5 @@ Genera con IA una imagen ilustrativa de la abertura (por ejemplo, una puerta) se
 
 ## Pendientes
 
-- [ ] Elegir proveedor y modelo de imagen según costo (impacta el abono mensual).
+- [ ] Elegir proveedor y modelo de imagen según costo por imagen.
 - [ ] Definir si se cachea por tipología y medidas para no regenerar.
