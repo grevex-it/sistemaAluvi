@@ -1,0 +1,27 @@
+{
+  "name": "@aluvi/cortes",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Cálculo de cortes, optimización de barras y vidrio, retazos y etiquetas",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "vitest run --passWithNoTests"
+  },
+  "dependencies": {
+    "@aluvi/shared": "workspace:*",
+    "@aluvi/catalogo": "workspace:*"
+  },
+  "devDependencies": {
+    "vitest": "^5.0.5"
+  }
+}

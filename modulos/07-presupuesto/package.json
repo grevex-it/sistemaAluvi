@@ -1,0 +1,31 @@
+{
+  "name": "@aluvi/presupuesto",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Presupuesto al cliente final, PDF y rentabilidad por obra",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "vitest run --passWithNoTests"
+  },
+  "dependencies": {
+    "@aluvi/shared": "workspace:*",
+    "@aluvi/base": "workspace:*",
+    "@aluvi/catalogo": "workspace:*",
+    "@aluvi/cortes": "workspace:*",
+    "@aluvi/imagen-ia": "workspace:*",
+    "@aluvi/finanzas": "workspace:*"
+  },
+  "devDependencies": {
+    "vitest": "^5.0.5"
+  }
+}

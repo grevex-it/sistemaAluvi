@@ -1,0 +1,7 @@
+packages:
+  - "apps/*"
+  - "modulos/*"
+  - "packages/*"
+
+onlyBuiltDependencies:
+  - esbuild

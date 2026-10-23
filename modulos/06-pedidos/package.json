@@ -1,0 +1,29 @@
+{
+  "name": "@aluvi/pedidos",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Pedidos a proveedores (barras y vidrio) a partir de los cortes",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "vitest run --passWithNoTests"
+  },
+  "dependencies": {
+    "@aluvi/shared": "workspace:*",
+    "@aluvi/base": "workspace:*",
+    "@aluvi/catalogo": "workspace:*",
+    "@aluvi/cortes": "workspace:*"
+  },
+  "devDependencies": {
+    "vitest": "^5.0.5"
+  }
+}

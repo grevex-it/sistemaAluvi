@@ -1,0 +1,29 @@
+# Servicios para desarrollo local. Producción corre en Railway (.railway/railway.ts).
+services:
+  postgres:
+    image: postgres:17
+    environment:
+      POSTGRES_USER: aluvi
+      POSTGRES_PASSWORD: aluvi
+      POSTGRES_DB: aluvi
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+
+  waha:
+    image: devlikeapro/waha
+    environment:
+      WHATSAPP_API_KEY: ${WAHA_API_KEY:-}
+      WHATSAPP_HOOK_URL: http://host.docker.internal:3003/webhook
+      WHATSAPP_HOOK_EVENTS: message
+    ports:
+      - "3002:3000"
+    volumes:
+      - waha-sessions:/app/.sessions
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+
+volumes:
+  postgres-data:
+  waha-sessions:

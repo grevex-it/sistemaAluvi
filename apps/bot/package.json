@@ -1,0 +1,22 @@
+{
+  "name": "@aluvi/bot",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Servicio que recibe los mensajes de WhatsApp (WAHA) y los pasa al módulo 03-bot-whatsapp",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/index.js",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "vitest run --passWithNoTests"
+  },
+  "dependencies": {
+    "@aluvi/shared": "workspace:*",
+    "fastify": "^5.12.7"
+  },
+  "devDependencies": {
+    "tsx": "^4.23.15",
+    "vitest": "^5.0.5"
+  }
+}

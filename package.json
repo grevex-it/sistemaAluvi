@@ -1,0 +1,27 @@
+{
+  "name": "sistema-aluvi",
+  "private": true,
+  "description": "Sistema de gestión para ALUVI Aberturas de Aluminio — desarrollado por Grevex",
+  "packageManager": "pnpm@10.28.0",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "typecheck": "turbo run typecheck && tsc -p .railway/tsconfig.json",
+    "test": "turbo run test",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "check": "pnpm format:check && pnpm typecheck && pnpm test",
+    "db:up": "docker compose up -d postgres",
+    "waha:up": "docker compose up -d waha"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.5",
+    "prettier": "^3.9.10",
+    "railway": "^3.16.0",
+    "turbo": "^2.11.10",
+    "typescript": "^5.9.3"
+  }
+}
